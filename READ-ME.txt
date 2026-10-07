@@ -1,0 +1,15 @@
+Put your pictures in this folder.
+
+Then open content.js and write the picture's name where it says  image: ""
+For example:   image: "images/frankenshark.jpg"
+
+Tips
+- Use simple names: lowercase, no spaces (frankenshark.jpg, not "Frankenshark FINAL (2).JPG").
+- Film stills look best wide, about 1600 pixels across.
+- Keep each picture under 500 KB so the site stays fast.
+
+What is already here
+- film-NAME.jpg        the thumbnail for that film (from your old portfolio)
+- film-NAME-still.jpg  the bigger picture on that film's own page
+- mani-portrait.jpg    your photo on the About page
+- mani-at-work.jpg     your photo on the Contact page
