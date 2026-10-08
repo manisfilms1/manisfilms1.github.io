@@ -22,12 +22,12 @@ window.SITE = {
     button: "View films",
     /* the pictures behind your name on the home page. Six film stills work best. */
     images: [
-      "images/film-the-modern-don-quixote.jpg",
-      "images/film-genieology-still.jpg",
-      "images/film-better-than-her.jpg",
-      "images/film-monkeying-around-still.jpg",
-      "images/film-beat-that.jpg",
-      "images/film-comic-heist-still.jpg"
+      "film-the-modern-don-quixote.jpg",
+      "film-genieology-still.jpg",
+      "film-better-than-her.jpg",
+      "film-monkeying-around-still.jpg",
+      "film-beat-that.jpg",
+      "film-comic-heist-still.jpg"
     ]
   },
 
@@ -44,30 +44,30 @@ window.SITE = {
     directing: {
       title: "Directing",
       intro: "Mani's films aim to entertain the masses while staying true to his indie roots.",
-      image: "images/film-better-than-her.jpg"      /* the picture behind the page title */
+      image: "film-better-than-her.jpg"      /* the picture behind the page title */
     },
     projects: {
       title: "Projects",
       intro: "Producing, assistant directing, production design and crew work, on Golden M Studios productions and other filmmakers' sets.",
-      image: "images/film-comic-heist-still.jpg"
+      image: "film-comic-heist-still.jpg"
     },
     about: {
       title: "About",
       intro: "Filmmaker and producer. UC Santa Cruz film graduate, relocating to Los Angeles.",
-      image: "images/film-the-modern-don-quixote.jpg"
+      image: "film-the-modern-don-quixote.jpg"
     },
     contact: {
       title: "Contact",
       intro: "For work, collaborations or screenings, send an email or a message on Instagram.",
-      image: "images/film-genieology-still.jpg",
-      photo: "images/mani-at-work.jpg"     /* the picture under your email and Instagram */
+      image: "film-genieology-still.jpg",
+      photo: "mani-at-work.jpg"     /* the picture under your email and Instagram */
     }
   },
 
   /* ---------- About page ---------- */
   about: {
-    photo: "images/mani-portrait.jpg",       /* the picture next to your bio */
-    gallery: [],         /* optional extra pictures under your bio, like  ["images/a.jpg", "images/b.jpg"] */
+    photo: "mani-portrait.jpg",       /* the picture next to your bio */
+    gallery: [],         /* optional extra pictures under your bio, like  ["a.jpg", "b.jpg"] */
     paragraphs: [
       "Mani Sachdeva is a filmmaker, producer, and the founder of Golden M Studios. Known for an agile, end-to-end approach to visual storytelling, Mani has directed and produced over a dozen independent projects across live-action, stop-motion, documentary, and music video formats.",
       "A versatile collaborator, he draws on comprehensive on-set experience, spanning assistant directing, production design, script supervision, and editing, to execute distinct creative visions efficiently. Mani’s films have garnered festival awards and selections at Tromadance, Great Film Club, and TINAFF, with his latest genre piece, Frankenshark, featured on HorrorHound TV."
@@ -77,7 +77,7 @@ window.SITE = {
   /* ---------- Films you directed (newest first) ----------
      youtube: paste the normal YouTube link.
      image:   the thumbnail in the Directing grid. Put a picture in the "images" folder and
-              write "images/its-name.jpg". Leave it "" and the picture comes from YouTube.
+              write "its-name.jpg". Leave it "" and the picture comes from YouTube.
      poster:  optional bigger picture behind the play button on the film's own page.
               Leave it "" to reuse the thumbnail.
      Leave anything you do not have as ""  or  []                                   */
@@ -90,7 +90,7 @@ window.SITE = {
       kind: "Mockumentary",
       status: "In post-production",
       youtube: "",
-      image: "images/film-the-modern-don-quixote.jpg",
+      image: "film-the-modern-don-quixote.jpg",
       poster: "",
       logline: "A comical play on the famous Don Quixote, putting him in a modern setting as he and his noble squire, Sancho, traverse the world.",
       statementLabel: "Director's statement",
@@ -105,7 +105,7 @@ window.SITE = {
       kind: "Senior thesis film",
       status: "",
       youtube: "https://youtu.be/yUtQJnQ5JOw",
-      image: "images/film-frankenshark.jpg",
+      image: "film-frankenshark.jpg",
       poster: "",
       logline: "It's the end of finals at Saint Druze College. Logan and Shreeta party their woes away until their plans are cut short by the mysterious creature known only as... FRANKENSHARK.",
       statementLabel: "Director's statement",
@@ -120,7 +120,7 @@ window.SITE = {
       kind: "Music video",
       status: "",
       youtube: "https://youtu.be/DASpgt_Icf8",
-      image: "images/film-better-than-her.jpg",
+      image: "film-better-than-her.jpg",
       poster: "",
       logline: "Joey Ferlatte stars in the music video for his debut album as he goes through the motions of a breakup and the feeling of loss with his new partner.",
       statementLabel: "Director's statement",
@@ -135,8 +135,8 @@ window.SITE = {
       kind: "Behind the scenes",
       status: "",
       youtube: "https://youtu.be/ZzoPFyea5Wg",
-      image: "images/film-in-the-mind-of-sodz.jpg",
-      poster: "images/film-in-the-mind-of-sodz-still.jpg",
+      image: "film-in-the-mind-of-sodz.jpg",
+      poster: "film-in-the-mind-of-sodz-still.jpg",
       logline: "A behind-the-scenes look at the making of The Sodz Show, with an exclusive interview with series creator Daniel Ward.",
       statementLabel: "Director's statement",
       statement: "This serves as a tribute to my close friend Daniel, a fellow artist who works hard to create his web series, The Sodz Show. I strongly believe in supporting other artists, and the best way to do that is to make a movie about them.",
@@ -150,8 +150,8 @@ window.SITE = {
       kind: "",
       status: "",
       youtube: "https://youtu.be/0_cUSRRORTE",
-      image: "images/film-genieology.jpg",
-      poster: "images/film-genieology-still.jpg",
+      image: "film-genieology.jpg",
+      poster: "film-genieology-still.jpg",
       logline: "When Edward (Dean Veera) is given three wishes by a Genie (Sraavya Apuri), it's up to his lawyer, Antonio Azad (Armstrong Dorismond), to help him decide his wishes.",
       statementLabel: "Director's statement",
       statement: "Based on a class assignment, the film grew out of a game my friends and I would play: Genie Lawyer, a hypothetical game where one tries to make a foolproof wish. I took on the challenge of making a simple conversation between three people interesting, using a combination of humor and my own directing style. I took this chance to really work with my actors and embrace subtle acting choices to give a more comedic performance.",
@@ -165,7 +165,7 @@ window.SITE = {
       kind: "48-hour film",
       status: "",
       youtube: "https://youtu.be/3Lz7W7kYnOg",
-      image: "images/film-beat-that.jpg",
+      image: "film-beat-that.jpg",
       poster: "",
       logline: "Made in just under 48 hours for UCSC's Slug48 competition, the film follows Dean (Dean Veera) and Anwyn (Anwyn Benson Hernandez) as they attempt to one-up each other in various competitions.",
       statementLabel: "Director's statement",
@@ -180,8 +180,8 @@ window.SITE = {
       kind: "",
       status: "",
       youtube: "https://youtu.be/aHg_99Pxy1Y",
-      image: "images/film-monkeying-around.jpg",
-      poster: "images/film-monkeying-around-still.jpg",
+      image: "film-monkeying-around.jpg",
+      poster: "film-monkeying-around-still.jpg",
       logline: "Meet Roddy (Mani Sachdeva), a 20-something adoptee from Africa trying to make it big as an aspiring actor, who is also an ape.",
       statementLabel: "Director's statement",
       statement: "The film serves as a self-reflection on my own personal fears in filmmaking.",
@@ -195,8 +195,8 @@ window.SITE = {
       kind: "",
       status: "",
       youtube: "https://youtu.be/4BrwwiIgVZo",
-      image: "images/film-comic-heist.jpg",
-      poster: "images/film-comic-heist-still.jpg",
+      image: "film-comic-heist.jpg",
+      poster: "film-comic-heist-still.jpg",
       logline: "When Remi (Aditya Krishnan) is wrongfully fired from his job at the comic shop, he enlists his best friend, Static (Dulce Arias), and small-time crook Jimmy Pool (Joey Arvizu) to enact the greatest heist of the 2000s: stealing his boss's prized comic books.",
       statementLabel: "Director's statement",
       statement: "My biggest live-action film at the time, this was an amazing opportunity to work with a talented cast and crew who were patient with me in this new era. I was able to work with them and move my ideas from the page to the screen seamlessly.",
@@ -210,7 +210,7 @@ window.SITE = {
       kind: "Stop motion",
       status: "",
       youtube: "https://youtu.be/8o8qqAU7WX4",
-      image: "images/film-adam.jpg",
+      image: "film-adam.jpg",
       poster: "",
       logline: "The mad Doctor Viktor Frankenstein has created life in ADAM, a stop-motion tribute to Frankenstein.",
       statementLabel: "Director's statement",
@@ -225,7 +225,7 @@ window.SITE = {
       kind: "",
       status: "",
       youtube: "https://www.youtube.com/watch?v=qWA8UNKROFM",
-      image: "images/film-the-last-adventure.jpg",
+      image: "film-the-last-adventure.jpg",
       poster: "",
       logline: "After the death of their globetrotting best friend, Nancy and Heather set out to complete The Last Adventure.",
       statementLabel: "Director's statement",
@@ -240,7 +240,7 @@ window.SITE = {
       kind: "",
       status: "",
       youtube: "https://youtu.be/_bPZvL5KCgI",
-      image: "images/film-le-mannequin.jpg",
+      image: "film-le-mannequin.jpg",
       poster: "",
       logline: "A struggling artist attempts his next magnum opus. Frustrated at the lack of progress, he storms out of his room. Unbeknownst to him, his model, Le Mannequin, has come to life and attempts to inspire him to keep creating.",
       statementLabel: "Artist statement",
